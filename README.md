@@ -6,3 +6,4 @@
     - PPG: Pontos por jogo
     - APG: Assistências por jogo
     - TPTSPG: Cestas de três pontos (feitas) por jogo
+- Link do curso: https://youtube.com/playlist?list=PL1MJdy9N8XJK-CC-roXUa_ZuYtLgDF5Kz
