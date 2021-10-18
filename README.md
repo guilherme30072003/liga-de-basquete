@@ -1,5 +1,12 @@
 # Liga de basquete
 ## English
+- It's a SQL repository that simulate a basketball league. The purpose of it is to pratice most of the concepts shown in the course *SQL Basics - examples using Oracle.* The tables are:
+    - players: Which have data about the players such as first name, age and team
+    - valuespg: Which have data about the points per game (PPG), assists per game (APG) and three point shots made per game (TPTSPG) of each player
+    - players_info: Which have data about the life of the players such as hometown, history and NBA favorite player
+    - favorite_players: Which have data about player's favorite player but using only players of this league
+
+- favorite_players it's a unary relationship table, that's why it has it's own entity relationship diagram. The diagrams are in crow's foot notation
 
 ## Português
 - Este repositório tem códigos SQL que simulam uma liga de basquete. A intenção é praticar a maioria dos conceitos ensinados no curso *SQL Basics - examples using Oracle.* As tabelas existentes são:
