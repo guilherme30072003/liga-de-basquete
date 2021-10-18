@@ -7,6 +7,7 @@
     - favorite_players: Which have data about player's favorite player but using only players of this league
 
 - favorite_players it's a unary relationship table, that's why it has it's own entity relationship diagram. The diagrams are in crow's foot notation
+- Course's link: https://youtube.com/playlist?list=PL1MJdy9N8XJK-CC-roXUa_ZuYtLgDF5Kz
 
 ## Português
 - Este repositório tem códigos SQL que simulam uma liga de basquete. A intenção é praticar a maioria dos conceitos ensinados no curso *SQL Basics - examples using Oracle.* As tabelas existentes são:
