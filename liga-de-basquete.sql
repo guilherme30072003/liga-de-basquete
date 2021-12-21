@@ -1,6 +1,3 @@
-/* Este código cria uma banco de dados que simula uma liga de basquete, usei
- isso para treinar os conceitos aprendidos no curso SQL basics da J Kreie*/
-
 /* Seleciona o primeiro e o último nome dos jogadores e seus IDs */
 select ply_id, fname, lname from players;
 
