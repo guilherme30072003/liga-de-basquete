@@ -175,11 +175,7 @@ values (1,'Cuiabá','Nasceu em 2003, com 10 anos teve seu primeiro contato com o
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (17,'New York','Nasceu em 2001, veio de uma família pobre, mas com muita luta conseguiu chegar a esta liga',null,2,2);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (18,'Calgary',null,'Wilt Chamberlain',3,3);
+values (2,'Cleveland','Nasceu em 1995',null,9,9);
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
@@ -187,7 +183,43 @@ values (3,'Stockholm',null,null,4,4);
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (4,'Los Angeles',null,'Kobe Bryant',20,20);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (5,'Várzea Grande',null,null,11,11);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
 values (6,'Tokyo',null,'Damian Lillard',5,5);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (7,'Houston',null,null,10,10);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (8,'New York',null,'Kevin Durant',8,8);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (9,'Campo Grande',null,null,12,12);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (10,'Edmonton',null,null,16,16);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (11,'Diamantino',null,null,13,13);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (12,'Ottawa',null,null,17,17);
+
+insert into players_info
+(ply_info_id, city, history, favorite_players,ply_id,values_id)
+values (13,'Santo Antônio do Leverger',null,null,14,14);
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
@@ -199,47 +231,15 @@ values (15,'Chicago',null,null,7,7);
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (8,'New York',null,'Kevin Durant',8,8);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (2,'Cleveland','Nasceu em 1995',null,9,9);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (7,'Houston',null,null,10,10);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (5,'Várzea Grande',null,null,11,11);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (9,'Campo Grande',null,null,12,12);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (11,'Diamantino',null,null,13,13);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (13,'Santo Antônio do Leverger',null,null,14,14);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
 values (16,'Lucas do Rio Verde',null,null,15,15);
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (10,'Edmonton',null,null,16,16);
+values (17,'New York','Nasceu em 2001, veio de uma família pobre, mas com muita luta conseguiu chegar a esta liga',null,2,2);
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (12,'Ottawa',null,null,17,17);
-
-insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (20,'Los Angeles',null,'Kobe Bryant',18,18);
+values (18,'Calgary',null,'Wilt Chamberlain',3,3);
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
@@ -247,24 +247,12 @@ values (19,'Los Angeles',null,'Kobe Bryant',19,19);
 
 insert into players_info
 (ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (4,'Los Angeles',null,'Kobe Bryant',20,20);
+values (20,'Los Angeles',null,'Kobe Bryant',18,18);
 
 /* Insere dados na tabela favorite_players */
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
-values (5,'Larry','Junior',null);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (4,'Ian','Banks',5);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (3,'Jay','Harden',4);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (6,'Kelvin','Azevedo',4);
+values (1,'Guilherme','Azevedo',4);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
@@ -272,7 +260,19 @@ values (2,'Gabriel','Lowry',4);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
-values (1,'Guilherme','Azevedo',4);
+values (3,'Jay','Harden',4);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (4,'Ian','Banks',5);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (5,'Larry','Junior',null);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (6,'Kelvin','Azevedo',4);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
@@ -280,19 +280,7 @@ values (7,'Matthew','Paul',1);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
-values (20,'Marcus','Roy',7);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
 values (8,'John','English',20);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (14,'Adam','Morris',8);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (12,'Yuri','Pascal',14);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
@@ -308,6 +296,26 @@ values (11,'Mark','Azevedo',12);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
+values (12,'Yuri','Pascal',14);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (13,'David','Siakam', null);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (14,'Adam','Morris',8);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (15,'Joseph','Wall',null);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (16,'Nair','Souza',null);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
 values (17,'Michael','Moura',1);
 
 insert into favorite_players
@@ -320,12 +328,4 @@ values (19,'Carlos','Stevens',3);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
-values (13,'David','Siakam', null);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (15,'Joseph','Wall',null);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (16,'Nair','Souza',null);
+values (20,'Marcus','Roy',7);
