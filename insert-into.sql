@@ -252,15 +252,7 @@ values (20,'Los Angeles',null,'Kobe Bryant',18,18);
 /* Insere dados na tabela favorite_players */
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
-values (1,'Guilherme','Azevedo',4);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (2,'Gabriel','Lowry',4);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (3,'Jay','Harden',4);
+values (5,'Larry','Junior',null);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
@@ -268,7 +260,7 @@ values (4,'Ian','Banks',5);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
-values (5,'Larry','Junior',null);
+values (3,'Jay','Harden',4);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
@@ -276,11 +268,31 @@ values (6,'Kelvin','Azevedo',4);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
+values (2,'Gabriel','Lowry',4);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (1,'Guilherme','Azevedo',4);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
 values (7,'Matthew','Paul',1);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
+values (20,'Marcus','Roy',7);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
 values (8,'John','English',20);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (14,'Adam','Morris',8);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (12,'Yuri','Pascal',14);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
@@ -296,26 +308,6 @@ values (11,'Mark','Azevedo',12);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
-values (12,'Yuri','Pascal',14);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (13,'David','Siakam', null);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (14,'Adam','Morris',8);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (15,'Joseph','Wall',null);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
-values (16,'Nair','Souza',null);
-
-insert into favorite_players
-(player_id,fname,lname,fav_player_id)
 values (17,'Michael','Moura',1);
 
 insert into favorite_players
@@ -328,4 +320,12 @@ values (19,'Carlos','Stevens',3);
 
 insert into favorite_players
 (player_id,fname,lname,fav_player_id)
-values (20,'Marcus','Roy',7);
+values (13,'David','Siakam', null);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (15,'Joseph','Wall',null);
+
+insert into favorite_players
+(player_id,fname,lname,fav_player_id)
+values (16,'Nair','Souza',null); 
