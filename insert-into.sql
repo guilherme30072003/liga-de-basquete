@@ -168,86 +168,90 @@ insert into valuespg
 (values_id, ppg, apg, tptspg)
 values (values_id_seq.nextval,50,1,8);
 
+/* Cria a sequência ply_info_id_seq */
+create sequence ply_info_id_seq
+start with 1;
+
 /* Insere dados na tabela players_info */
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (1,'Cuiabá','Nasceu em 2003, com 10 anos teve seu primeiro contato com o basquete','Stephen Curry',1,1);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Cuiabá','Nasceu em 2003, com 10 anos teve seu primeiro contato com o basquete','Stephen Curry');
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (2,'Cleveland','Nasceu em 1995',null,9,9);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Cleveland','Nasceu em 1995',null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (3,'Stockholm',null,null,4,4);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Stockholm',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (4,'Los Angeles',null,'Kobe Bryant',20,20);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Los Angeles',null,'Kobe Bryant');
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (5,'Várzea Grande',null,null,11,11);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Várzea Grande',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (6,'Tokyo',null,'Damian Lillard',5,5);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Tokyo',null,'Damian Lillard');
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (7,'Houston',null,null,10,10);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Houston',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (8,'New York',null,'Kevin Durant',8,8);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'New York',null,'Kevin Durant');
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (9,'Campo Grande',null,null,12,12);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Campo Grande',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (10,'Edmonton',null,null,16,16);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Edmonton',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (11,'Diamantino',null,null,13,13);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Diamantino',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (12,'Ottawa',null,null,17,17);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Ottawa',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (13,'Santo Antônio do Leverger',null,null,14,14);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Santo Antônio do Leverger',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (14,'Brasília',null,'Devin Booker',6,6);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Brasília',null,'Devin Booker');
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (15,'Chicago',null,null,7,7);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Chicago',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (16,'Lucas do Rio Verde',null,null,15,15);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Lucas do Rio Verde',null,null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (17,'New York','Nasceu em 2001, veio de uma família pobre, mas com muita luta conseguiu chegar a esta liga',null,2,2);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'New York','Nasceu em 2001, veio de uma família pobre, mas com muita luta conseguiu chegar a esta liga',null);
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (18,'Calgary',null,'Wilt Chamberlain',3,3);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Calgary',null,'Wilt Chamberlain');
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (19,'Los Angeles',null,'Kobe Bryant',19,19);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Los Angeles',null,'Kobe Bryant');
 
 insert into players_info
-(ply_info_id, city, history, favorite_players,ply_id,values_id)
-values (20,'Los Angeles',null,'Kobe Bryant',18,18);
+(ply_info_id, city, history, favorite_players)
+values (ply_info_id_seq.nextval,'Los Angeles',null,'Kobe Bryant');
 
 /* Insere dados na tabela favorite_players */
 insert into favorite_players
