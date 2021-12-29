@@ -23,11 +23,7 @@ create table players_info(
     city varchar2(100) not null,
     history varchar2(100),
     favorite_players varchar2(100),
-    ply_id number not null,
-    values_id number not null,
-    constraint pk_ply_info_id primary key (ply_info_id),
-    constraint fk_ply_id foreign key (ply_id) references players,
-    constraint fk_values_id foreign key (values_id) references valuespg
+    constraint pk_ply_info_id primary key (ply_info_id)
 );
 
 /* Cria a tabela favorite_players (para fazer o self-join) */
