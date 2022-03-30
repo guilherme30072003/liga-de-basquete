@@ -1,6 +1,6 @@
 # Liga de basquete
 ## English
-- This SQL repository has data about a fictional basketball league. The purpose of it is to practice most of the concepts shown in the course *SQL Basics - examples using Oracle.* The tables are:
+- This repository has data about a fictional basketball league. The purpose of it is to practice most of the concepts shown in the course *SQL Basics - examples using Oracle.* The tables are:
     - players: Which have data about the players such as first name, age and team
     - valuespg: Which have data about the points per game (PPG), assists per game (APG) and three point shots made per game (TPTSPG) of each player
     - players_info: Which have data about the life of the players such as hometown, history and NBA favorite player
@@ -10,7 +10,7 @@
 - Course's link: https://youtube.com/playlist?list=PL1MJdy9N8XJK-CC-roXUa_ZuYtLgDF5Kz
 
 ## Português
-- Este repositório tem códigos SQL que simulam uma liga de basquete. A intenção é praticar a maioria dos conceitos ensinados no curso *SQL Basics - examples using Oracle.* As tabelas existentes são:
+- Este repositório tem códigos que simulam uma liga de basquete. A intenção é praticar a maioria dos conceitos ensinados no curso *SQL Basics - examples using Oracle.* As tabelas existentes são:
     - players: Possui dados sobre os jogadores como primeiro nome, idade e time
     - valuespg: Possui dados sobre os pontos por jogo (PPG), as assistências por jogo (APG) e as cestas de três pontos feitas por jogo (TPTSPG) de cada jogador
     - players_info: Possui dados sobre a vida dos jogadores como cidade de origem, história e jogador favorito da NBA
